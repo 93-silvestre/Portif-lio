@@ -58,11 +58,11 @@ btnEnviar.addEventListener("click", ()=>{
   btnEnviar.style.display = "none"
 })
 
-/* Tirar mensagem  de envio com sucesso depois de 5 segundos*/
+/* Tirar mensagem  de envio com sucesso depois de 3 segundos*/
 
 setTimeout(() => {
   document.querySelector('#alerta').style.display = 'none';
-}, 5000)
+}, 3000)
 
 
 
