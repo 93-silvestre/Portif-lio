@@ -48,4 +48,22 @@ window.addEventListener("scroll", ()=>{
 })
 
 
+/*Ativar o carregamento no botão de enviar*/
+
+const btnEnviar = document.querySelector('#btn-enviar')
+const btnEnviarLoader = document.querySelector('#btn-enviar-loader')
+
+btnEnviar.addEventListener("click", ()=>{
+  btnEnviarLoader.style.display = "block";
+  btnEnviar.style.display = "none"
+})
+
+/* Tirar mensagem  de envio com sucesso depois de 5 segundos*/
+
+setTimeout(() => {
+  document.querySelector('#alerta').style.display = 'none';
+}, 5000)
+
+
+
 
