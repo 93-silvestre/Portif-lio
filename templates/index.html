@@ -534,10 +534,7 @@
                 </div>
             </div>
 
-        </section>
-
-     
-        
+        </section>        
 
         {% with messages = get_flashed_messages() %}
         {% if messages %}
@@ -549,7 +546,18 @@
         {% endfor %}
         {% endif %}
         {% endwith %}
+
+        
     </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="text-center">
+                &copy; Copyright <strong>Nathalia Silvestre</strong>
+            </div>
+        </div>
+
+    </footer>
 
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../static/script.js"></script>
