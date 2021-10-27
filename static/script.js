@@ -56,7 +56,7 @@ const btnEnviarLoader = document.querySelector('#btn-enviar-loader')
 btnEnviar.addEventListener("click", ()=>{
   btnEnviarLoader.style.display = "block";
   btnEnviar.style.display = "none"
-})
+});
 
 /* Tirar mensagem  de envio com sucesso depois de 3 segundos*/
 

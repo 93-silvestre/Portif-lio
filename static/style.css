@@ -282,12 +282,12 @@ i.menu-mobile{
     padding: 15px;
     color:  #fff;
     font-size: 14px;
-    padding: fixed;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 300px;
     z-index: 9999;
-    background-color:#C5B8FF;
+    background-color: #C5B8FF ;
     transition: .3s;
 }
 
